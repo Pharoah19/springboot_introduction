@@ -17,8 +17,6 @@
 
 
 
-
-
 ---
 ### 問題点
 
@@ -32,8 +30,60 @@
 
 ---
 
-
-
+### そこで現れたのが・・・
 
 ---
+
+### Spring Boot!!!
+
+---
+
+### Spring Bootとは？
+
+- 複雑化したSpringプロジェクトが提供する様々なライブラリやフレームワークを、手っ取り早く使えるようにしたフレームワーク
+
+---
+
+### Spring Bootの特徴
+
+- あらかじめオススメのプロジェクトの組み合わせが含まれている 
+- 依存ライブラリを同梱するだけで、自動で設定が有効になる 
+- 組み込みTomcatを同梱し、アプリを即実行可能 
+
+---
+
+### 開発環境
+
+- Spring Tool Suite(STS) plugin
+　　　　→　STSには「Spring Starter Project」という「Spring Boot」プロジェクトの雛形を簡単に作る仕組みが用意されている
+
+- gradle plugin
+
+---
+
+### 依存ライブラリ
+
+```build.gradle
+
+dependencies {
+  runtime('org.springframework.boot:spring-boot-devtools') 
+  compile('org.springframework.boot:spring-boot-starter-jdbc')
+  compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+  compile('org.springframework.boot:spring-boot-starter-web')
+  compile('org.springframework.boot:spring-boot-starter-data-jpa')
+  compile('mysql:mysql-connector-java')
+  compile('org.webjars:bootstrap:3.3.7')
+  compile('org.webjars:jquery:3.2.1')
+  compile('org.webjars:jquery-ui:1.12.1')
+}
+
+```
+
+@[3](Spring DevTools アプリケーションを再起動することなく、ソースコード、htmlの変更が反映)
+
+---
+
+
+
+
 
