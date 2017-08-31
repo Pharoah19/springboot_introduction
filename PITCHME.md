@@ -55,7 +55,7 @@
 ### 開発環境
 
 - Spring Tool Suite(STS) plugin <br>
-　　　　→　STSには「Spring Starter Project」という「Spring Boot」プロジェクトの雛形を簡単に作る仕組みが用意されている
+→　STSには「Spring Starter Project」という「Spring Boot」プロジェクトの雛形を簡単に作る仕組みが用意されている
 
 - gradle plugin
 
