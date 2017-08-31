@@ -1,5 +1,5 @@
 #Theme Setting(black, moon, night, beige, sky, white が設定可)
-theme : moon
+theme : night
 
 #ロゴアイコンの設定
 #logo : logo.png
@@ -32,4 +32,4 @@ transition : fade
 charts : true
 
 #背景画像
-#background : bg.png
+background : bg.png
