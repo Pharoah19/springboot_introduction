@@ -13,7 +13,7 @@
 ---
 ### Spring Frameworkの構造
 
----?code=spring.jpg
+---?code=spring.png
 
 
 
