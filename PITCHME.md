@@ -13,8 +13,7 @@
 ---
 ### Spring Frameworkの構造
 
-https://github.com/keiyonekawa0614/springboot_introduction/blob/master/spring2.png
-
+<img src="https://github.com/keiyonekawa0614/springboot_introduction/blob/master/spring2.png" />
 
 
 ---
