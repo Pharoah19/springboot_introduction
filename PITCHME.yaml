@@ -31,4 +31,4 @@ transition : fade
 #チャート / グラフ機能の設定
 charts : true
 
-#background : bg.png
+background : bg.png
