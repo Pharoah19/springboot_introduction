@@ -105,6 +105,36 @@ public class EmployeeController {
 
 ---
 
+### thymeleaf
+
+繰り返し
+th:each="変数 : ${コレクション}"
+
+``` employee-list.html
+
+        <tr th:each="employee : ${employeeList}" th:object="${employee}">
+          <td th:text="*{id}"></td>
+          <td th:text="*{lastName} + ' ' + *{firstName}"></td>
+          <td th:text="*{age}"></td>
+          <td th:text="*{sex}"></td>
+          <td th:text="*{experience != null} ? *{experience} : '-'"></td>
+          <td th:text="*{language != null} ? *{language} : '-'"></td>
+          <td th:text="*{licence != null} ? *{licence} : '-'"></td>
+        </tr>
+        
+```
+
+--- 
+
+### 最後に
+
+
+---
+
+### SpringBootはWebアプリケーションを高速簡単、ハマらずにWebアプリケーションの開発をサポート
+
+
+
 
 
 
