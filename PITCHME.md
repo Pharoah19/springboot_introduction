@@ -1,9 +1,9 @@
-### SpringBoot introduction!!
+## SpringBoot introduction!!
 
 
 
 ---
-### 自己紹介
+## 自己紹介
 
 - Twitter : @keiyonekawa |
 - Androidアプリコンテスト(ITA-A4)で企画賞受賞 |
@@ -11,14 +11,14 @@
 
 
 ---
-### Spring Frameworkの構造
+## Spring Frameworkの構造
 
 ![springframework](spring.png)
 
 
 
 ---
-### 問題点
+## 問題点
 
 - サブプロジェクトがどんどん肥大化。。 |
 - 各プロジェクトを組み合わせて使うには、多くの初期設定が必要・・・ |
@@ -30,21 +30,21 @@
 
 ---
 
-### そこで現れたのが・・・
+## そこで現れたのが・・・
 
 ---
 
-### Spring Boot!!!
+## Spring Boot!!!
 
 ---
 
-### Spring Bootとは？
+## Spring Bootとは？
 
 - 複雑化したSpringプロジェクトが提供する様々なライブラリやフレームワークを、手っ取り早く使えるようにしたフレームワーク
 
 ---
 
-### Spring Bootの特徴
+## Spring Bootの特徴
 
 - あらかじめオススメのプロジェクトの組み合わせが含まれている 
 - 依存ライブラリを同梱するだけで、自動で設定が有効になる 
@@ -52,7 +52,7 @@
 
 ---
 
-### 開発環境
+## 開発環境
 
 - Spring Tool Suite(STS) plugin <br>
 →　STSには「Spring Starter Project」という「Spring Boot」プロジェクトの雛形を簡単に作る仕組みが用意されている
@@ -61,7 +61,7 @@
 
 ---
 
-### 依存ライブラリ
+## 依存ライブラリ
 
 ```build.gradle
 
@@ -84,7 +84,7 @@ dependencies {
 
 ---
 
-### Controller
+## Controller
 
 ```EmployeeController.java
 
@@ -105,7 +105,7 @@ public class EmployeeController {
 
 ---
 
-### thymeleaf
+## thymeleaf
 
 繰り返し
 th:each="変数 : ${コレクション}"
@@ -126,12 +126,17 @@ th:each="変数 : ${コレクション}"
 
 --- 
 
-### 最後に
+## 最後に
 
 
 ---
 
-## SpringBootはWebアプリケーションを高速簡単、ハマらずにWebアプリケーションの開発をサポート
+#### SpringBootはWebアプリケーションを高速簡単、ハマらずにWebアプリケーションの開発をサポート
+
+
+---
+
+## おわり
 
 
 
