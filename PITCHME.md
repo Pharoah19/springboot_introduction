@@ -54,7 +54,7 @@
 
 ### 開発環境
 
-- Spring Tool Suite(STS) plugin
+- Spring Tool Suite(STS) plugin <br>
 　　　　→　STSには「Spring Starter Project」という「Spring Boot」プロジェクトの雛形を簡単に作る仕組みが用意されている
 
 - gradle plugin
@@ -79,7 +79,29 @@ dependencies {
 
 ```
 
-@[3](Spring DevTools アプリケーションを再起動することなく、ソースコード、htmlの変更が反映)
+@[2](Spring DevTools : アプリケーションを再起動することなく、ソースコード、htmlの変更が反映)
+@[4](thymeleaf : 素のHTMLに「th: ***」属性をつけることで、動的な画面が作れるテンプレートエンジン)
+
+---
+
+### Controller
+
+```EmployeeController.java
+
+@Controller
+public class EmployeeController {
+
+    @Autowired
+    EmployeeService employeeService;
+    
+    @RequestMapping("/employee/list")
+    public String list(Model model) {
+        List<EmployeeEntity> employeeList = employeeServiceImpl.findEmployee();
+        model.addAttribute("employeeList", employeeList);
+        return "employee-list";
+    }
+}
+```
 
 ---
 
