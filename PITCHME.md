@@ -1,4 +1,4 @@
-## SpringBoot introduction!!
+### SpringBoot introduction!!
 
 
 
@@ -11,7 +11,7 @@
 
 
 ---
-## Spring Frameworkの構造
+### Spring Frameworkの構造
 
 ![springframework](spring.png)
 
