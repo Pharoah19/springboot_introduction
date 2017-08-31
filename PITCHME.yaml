@@ -1,8 +1,8 @@
 #Theme Setting(black, moon, night, beige, sky, white が設定可)
-theme : night
+theme : moon
 
 #ロゴアイコンの設定
-logo : logo.png
+#logo : logo.png
 
 
 #フットノートの設定
@@ -31,4 +31,5 @@ transition : fade
 #チャート / グラフ機能の設定
 charts : true
 
-background : bg.png
+#背景画像
+#background : bg.png
